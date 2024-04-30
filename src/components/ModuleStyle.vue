@@ -1,5 +1,5 @@
-<template>
-  <!-- <h1 :class="$style['m-class']">Using module CSS with $ syntax (kabob-case)</h1> -->
+<!-- <template>
+  <h1 :class="$style['m-class']">Using module CSS with $ syntax (kabob-case)</h1>
   <h1 :class="myClasses.anotherClass">Using Module CSS with $ syntax (camelCase)</h1>
 </template>
 
@@ -14,4 +14,4 @@
     background: seagreen;
     color: white;
   }
-</style>
+</style> -->
