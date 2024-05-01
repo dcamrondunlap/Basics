@@ -11,10 +11,10 @@ const submitHandler = (e) => {
 };
 
 const showMessage = (message) => alert(message);
-</script> -->
+</script>
 
-<!-- <template> -->
-  <!-- <h1>Count: {{ count }} </h1>
+<template>
+   <h1>Count: {{ count }} </h1>
   <button v-on:click="">Increment</button>
    These are two different ways to do the buttons
   <button @:click="">Increment</button>
@@ -27,7 +27,7 @@ const showMessage = (message) => alert(message);
     <input type="text" placeholder="Please enter your name">
     <input type="email" placeholder="Please enter your email">
     <button type="submit">Submit</button>
-  </form> -->
+  </form>
 
-  <!-- <button @:click="showMessage('This is my message')">Show Message</button> -->
-<!-- </template> -->
+  <button @:click="showMessage('This is my message')">Show Message</button> 
+ </template> -->

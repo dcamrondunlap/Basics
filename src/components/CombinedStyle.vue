@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <h2 class="g-1">Another Global style</h2>
   <h2 class="l-1">Another Local Styling</h2>
 </template>
@@ -17,4 +17,4 @@ Local Styling
     background: black;
     color: white;
   }
-</style> -->
+</style>
