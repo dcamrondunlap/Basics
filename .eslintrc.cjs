@@ -10,5 +10,10 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules: {
+    'vue/valid-template-root': ['error', {
+      requireBacktick: true
+    }]
   }
 }
