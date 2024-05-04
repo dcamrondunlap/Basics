@@ -26,7 +26,13 @@
 // import LifeCycleComponent from './components/LifeCycleComponent.vue';
 // import BasicComponent from './components/BasicComponent.vue';
 // import ReactiveObject from './components/ReactiveObject.vue';
-import MultipleSources from './components/MultipleSources.vue'
+// import MultipleSources from './components/MultipleSources.vue'
+// import BasicRef from './components/BasicRef.vue'
+// import FunctionRef from './components/FunctionRef.vue'
+// import RefComponent from './components/RefComponent.vue'
+// import ToggleFriends from './components/ToggleFriends.vue'
+import CounterComponent from './components/CounterComponent.vue'
+import YetAnotherComponent from './components/YetAnotherComponent.vue';
 
 // import {provide} from 'vue';
 // provide('studentName', 'Anthony');
@@ -133,7 +139,7 @@ import MultipleSources from './components/MultipleSources.vue'
   <!-- <hr/> -->
 
   <!-- <NameSlot>
-     v-slot:one
+    v-slot:one
     <template v-slot:one>
       <h1>This content will go to slot "one"</h1>
     </template>
@@ -158,5 +164,7 @@ import MultipleSources from './components/MultipleSources.vue'
   <!-- <LifeCycleComponent v-if="showHide" />
   <button @click="showHide = !showHide">Show / Hide</button> -->
 
-  <MultipleSources/>
+  <!-- <BasicRef/> -->
+  <CounterComponent/>
+  <YetAnotherComponent />
 </template>
